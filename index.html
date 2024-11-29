@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PONG GAME - A Batalha Clássica!</title>
+  <!-- Importação das folhas de estilo e fontes -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Importação de ícones do Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <!-- Fonte 'Press Start 2P' do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Tela Inicial -->
+  <div id="telaInicial">
+    <h1>Bem-vindo ao PONG GAME!</h1>
+    <button class="botao" onclick="mostrarTelaMenu()">Clique para Iniciar</button>
+  </div>
+
+  <!-- Tela de Menu -->
+  <div id="telaMenu">
+    <h1>PONG GAME - A Batalha Clássica!</h1>
+    <p class="textoEngracado" style="font-size: 22px;">Prepare-se para a maior disputa já vista na sociedade!!!</p>
+    <p style="font-size: 22px; color: #ffffff;">Escolha a dificuldade:</p>
+    <div class="botoesDificuldade">
+      <button class="botao" onclick="iniciarJogo('facil')">Modo Copiar e Colar do ChatGPT</button>
+      <button class="botao" onclick="iniciarJogo('medio')">Modo Explicar Todo o Seu Código para o Professor, tentando lembrar o que cada linha faz.</button>
+      <button class="botao" onclick="iniciarJogo('dificil')">Modo Desenvolver Sistema em COBOL no Século 21</button>
+    </div>
+    <!-- Botão de Configurações -->
+    <button class="botaoConfiguracoes" onclick="alternarMenuOpcoes()">
+      <i class="fas fa-cog"></i> Configurações
+    </button>
+    <!-- Menu de Opções -->
+    <div id="menuOpcoes">
+      <h3>Opções</h3>
+      <label><input type="checkbox" id="mutarMusica" onchange="alternarMutarMusica()"> Mutar Música</label>
+      <label><input type="checkbox" id="mutarSons" onchange="alternarMutarSons()"> Mutar Efeitos Sonoros</label>
+      <button class="botao botaoFecharOpcoes" onclick="alternarMenuOpcoes()">Fechar</button>
+    </div>
+    <p class="textoEngracado" style="font-size: 16px;">Jogador 1: W (subir), S (descer)<br>Jogador 2: Setas para cima/baixo</p>
+  </div>
+
+  <!-- Tela do Jogo -->
+  <div id="telaJogo">
+    <div class="placarContainer">
+      <div class="placar" id="placarJogador1">JOGADOR 1: <span id="pontuacao1">0</span></div>
+      <button class="botao" id="botaoDesistir" onclick="desistir()">DESISTIR (ESC)</button>
+      <div class="placar" id="placarJogador2">JOGADOR 2: <span id="pontuacao2">0</span></div>
+    </div>
+
+    <canvas id="meuCanvas" width="1700" height="700">Seu navegador não suporta este elemento</canvas>
+  </div>
+
+  <!-- Tela de Fim de Jogo -->
+  <div id="telaFimJogo">
+    <h2>Fim de Jogo!</h2>
+    <p id="pontuacaoFinal"></p>
+    <p class="textoEngracado">Obrigado por jogar! Não volte nunca mais! Entenderemos se não voltar :)</p>
+    <button class="botao" onclick="reiniciarJogo()">Reiniciar a Batalha Épica (R)</button>
+    <div id="fogosArtificio"></div>
+  </div>
+
+  <!-- Rodapé com a animação dos nomes -->
+  <div class="rodape">
+    <div class="textoRolante">
+      Nome dos integrantes: Jonathan Pereira Delmonte &nbsp;&nbsp;|&nbsp;&nbsp; Gabriel Caputo Morais &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  </div>
+
+  <!-- Importação do script JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
