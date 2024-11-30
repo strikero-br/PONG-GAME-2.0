@@ -12,12 +12,12 @@
 
 ## 🚀 **Jogue Agora Mesmo**
 
-### 👉 [Clique aqui para jogar: PONG GAME](https://strikero-br.github.io/PONG-GAME/)
+### 👉 <a href="https://strikero-br.github.io/PONG-GAME/" target="_blank">Clique aqui para jogar: PONG GAME</a>
 
 > **⚡ Recomendado**: Jogue diretamente no seu navegador, sem a necessidade de downloads ou instalações adicionais.
 
-
 ---
+
 
 ## **Integrantes e Desenvolvedores do Projeto**
 
