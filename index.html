@@ -20,12 +20,12 @@
   <!-- Tela de Menu -->
   <div id="telaMenu">
     <h1>PONG GAME - A Batalha Clássica!</h1>
-    <p class="textoEngracado" style="font-size: 22px;">Prepare-se para a maior disputa já vista na sociedade!!!</p>
+    <p class="textoEngracado" style="font-size: 22px;">Prepare-se para a maior disputa já vista de todos os tempos!!!</p>
     <p style="font-size: 22px; color: #ffffff;">Escolha a dificuldade:</p>
     <div class="botoesDificuldade">
-      <button class="botao" onclick="iniciarJogo('facil')">Modo Copiar e Colar do ChatGPT</button>
-      <button class="botao" onclick="iniciarJogo('medio')">Modo Explicar Todo o Seu Código para o Professor, tentando lembrar o que cada linha faz.</button>
-      <button class="botao" onclick="iniciarJogo('dificil')">Modo Desenvolver Sistema em COBOL no Século 21</button>
+      <button class="botao" onclick="iniciarJogo('facil')">Modo Fácil</button>
+      <button class="botao" onclick="iniciarJogo('medio')">Modo Médio</button>
+      <button class="botao" onclick="iniciarJogo('dificil')">Modo Difícil</button>
     </div>
     <!-- Botão de Configurações -->
     <button class="botaoConfiguracoes" onclick="alternarMenuOpcoes()">
@@ -50,6 +50,9 @@
     </div>
 
     <canvas id="meuCanvas" width="1700" height="700">Seu navegador não suporta este elemento</canvas>
+
+    <!-- Container para Confetes -->
+    <div id="confetes"></div>
   </div>
 
   <!-- Tela de Fim de Jogo -->
