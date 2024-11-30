@@ -12,7 +12,7 @@
 
 ## 🚀 **Jogue Agora Mesmo**
 
-### 👉 <a href="https://strikero-br.github.io/PONG-GAME/" target="_blank">Clique aqui para jogar: PONG GAME</a>
+### 👉 <a href="https://strikero-br.github.io/PONG-GAME-2.0" target="_blank">Clique aqui para jogar: PONG GAME</a>
 
 > **⚡ Recomendado**: Jogue diretamente no seu navegador, sem a necessidade de downloads ou instalações adicionais.
 
@@ -65,7 +65,7 @@ Estudantes do curso de **Engenharia de Software** da [UniAcademia](https://www.u
 
 - Acesse o jogo diretamente pelo navegador através do link:
   
-  👉 [PONG GAME - Jogar Agora](https://strikero-br.github.io/PONG-GAME/)
+  👉 [PONG GAME - Jogar Agora](https://strikero-br.github.io/PONG-GAME-2.0)
 
 ### **2. Executar Localmente**
 
