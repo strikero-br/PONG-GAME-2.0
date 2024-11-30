@@ -198,19 +198,3 @@ Agradecemos a todos que contribuíram direta ou indiretamente para o desenvolvim
 
 **Divirta-se e que vença o melhor! 🏆**
 
-
-
-
----
-
-## **Integrantes e Desenvolvedores do Projeto**
-
-Este projeto foi desenvolvido por:
-
-- **Jonathan Pereira Delmonte**
-- **Gabriel Caputo Morais**
-
-Estudantes do curso de **Engenharia de Software** da [UniAcademia](https://www.uniacademia.edu.br).
-
----
-
